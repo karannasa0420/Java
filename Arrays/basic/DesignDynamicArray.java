@@ -72,7 +72,7 @@ public class DesignDynamicArray {
       System.out.println(array[i]);
     }
   }
-
+  /*
   public static void main(String[] args) {
     // Create a dynamic array with initial capacity of 5
     DesignDynamicArray dynamicArray = new DesignDynamicArray(5);
@@ -116,4 +116,5 @@ public class DesignDynamicArray {
     System.out.println("\nArray after adding element after popping:");
     dynamicArray.print(); // Output: 10, 25, 40, 60
   }
+ */
 }
