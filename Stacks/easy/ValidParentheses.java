@@ -32,7 +32,7 @@ public class ValidParentheses {
 
     // Test cases
     String test1 = "()[]{}";
-    String test2 = "()[{}";
+    String test2 = "{[()]}";
     String test3 = "[{({)}}]";
 
     System.out.println("Test 1 result: " + ValidParentheses.isValid(test1));
