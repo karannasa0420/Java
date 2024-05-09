@@ -35,8 +35,8 @@ public class ValidParentheses {
     String test2 = "{[()]}";
     String test3 = "[{({)}}]";
 
-    System.out.println("Test 1 result: " + ValidParentheses.isValid(test1));
-    System.out.println("Test 2 result: " + ValidParentheses.isValid(test2));
-    System.out.println("Test 3 result: " + ValidParentheses.isValid(test3));
+    System.out.println("Test 1 result is: " + ValidParentheses.isValid(test1));
+    System.out.println("Test 2 result is: " + ValidParentheses.isValid(test2));
+    System.out.println("Test 3 result is: " + ValidParentheses.isValid(test3));
   }
 }

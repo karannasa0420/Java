@@ -105,7 +105,7 @@ public class DoublyLinkedList {
         printLinkedList(linkedList); // Expected: 15 -> 10 -> 100 -> 5 -> 20 -> 25 -> 30
 
         // Test get
-        System.out.println("Value at index 3: " + linkedList.get(3)); // Expected: 5
+        System.out.println("Value at index 4: " + linkedList.get(3)); // Expected: 20
 
         // Test deleteAtIndex
         linkedList.deleteAtIndex(4);

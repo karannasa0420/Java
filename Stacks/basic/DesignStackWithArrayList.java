@@ -44,7 +44,7 @@ public class DesignStackWithArrayList {
     System.out.println("Stack size: " + stack.size());
     System.out.println("Popped element: " + stack.pop());
     System.out.println("Stack size after pop: " + stack.size());
-    System.out.println("Is stack empty? " + stack.isEmpty());
+    System.out.println("Is stack empty?- " + stack.isEmpty());
     stack.print();
   }
 }

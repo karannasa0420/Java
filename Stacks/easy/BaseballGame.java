@@ -37,7 +37,7 @@ public class BaseballGame {
     String[] test1 = { "5", "2", "C", "D", "+" }; // Expected output: 30
     String[] test2 = { "5", "-2", "4", "C", "D", "9", "+", "+" }; // Expected output: 27
 
-    System.out.println("Test 1 result: " + BaseballGame.calPoints(test1));
-    System.out.println("Test 2 result: " + BaseballGame.calPoints(test2));
+    System.out.println("Test 1 result is: " + BaseballGame.calPoints(test1));
+    System.out.println("Test 2 result is: " + BaseballGame.calPoints(test2));
   }
 }
